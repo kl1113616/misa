@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+
 body{
     background-color: rgb(240, 143, 175);
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+   text-align: center;
+   background-color: black;
+   padding: 20px;
+}
+
+header img{
+    border: 20px solid rgb(123, 47, 47);
+}
+
+header h1{
+    color: white;
+    font-size: 70px;
+    margin: 10px 0 20px 0;
+    font-family: "Babylonica", cursive;
+    font-weight: 600;
+    font-style: normal;
 }
