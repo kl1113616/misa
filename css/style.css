@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
 
 body{
+    font-size: 20px;
     background-color: rgb(240, 143, 175);
 }
 
@@ -16,14 +17,48 @@ header{
 }
 
 header img{
-    border: 20px solid rgb(123, 47, 47);
+    border: 20px solid #7b2f2f;
 }
 
-header h1{
+h1{
     color: white;
     font-size: 70px;
     margin: 10px 0 20px 0;
     font-family: "Babylonica", cursive;
     font-weight: 600;
     font-style: normal;
+}
+
+h2{
+    font-size: 50px;
+    margin: 5px 0 20px 0;
+    font-family: "Babylonica", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+
+main{
+    width: 800px;
+    margin: 0 auto;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 40px;
+}
+
+footer .content{
+    width: 800px;
+    margin: 0 auto;
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: red;
 }
